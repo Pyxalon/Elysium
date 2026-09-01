@@ -3,7 +3,7 @@
 
 #include <string_view>
 
-namespace NewBase
+namespace Elysium
 {
 	template<std::size_t N>
 	struct Signature
