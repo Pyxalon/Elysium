@@ -2,13 +2,11 @@
 #include <d3d11.h>
 #include <windows.h>
 
-namespace NewBase
+namespace Elysium
 {
 	struct PointerData
 	{
-		IDXGISwapChain** SwapChain;
-		HWND Hwnd;
-		WNDPROC WndProc;
+		HWND* Hwnd;
 	};
 
 	struct Pointers : PointerData
@@ -16,5 +14,5 @@ namespace NewBase
 		bool Init();
 	};
 
-	inline NewBase::Pointers Pointers;
+	inline Elysium::Pointers Pointers;
 }
