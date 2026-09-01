@@ -2,7 +2,7 @@
 #include "File.hpp"
 #include "Folder.hpp"
 
-namespace NewBase
+namespace Elysium
 {
     void FileMgr::Init(const std::filesystem::path& rootFolder)
     {
