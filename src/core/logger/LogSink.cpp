@@ -2,7 +2,7 @@
 
 #include "LogColor.hpp"
 
-namespace NewBase
+namespace Elysium
 {
 	LogColor LogSink::GetColor(const eLogLevel level)
 	{
