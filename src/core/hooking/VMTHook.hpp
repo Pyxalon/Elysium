@@ -5,7 +5,7 @@
 #include <cstddef>
 #include <string_view>
 
-namespace NewBase
+namespace Elysium
 {
 	template<std::size_t N>
 	class VMTHook : public BaseHook
