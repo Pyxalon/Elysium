@@ -4,7 +4,7 @@
 #include <string>
 
 
-namespace NewBase
+namespace Elysium
 {
 	using namespace al;
 	enum class LogColor;
