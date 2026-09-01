@@ -2,12 +2,10 @@
 #include "core/filemgr/FileMgr.hpp"
 #include "core/hooking/Hooking.hpp"
 #include "core/memory/ModuleMgr.hpp"
-#include "core/renderer/Renderer.hpp"
-#include "game/frontend/GUI.hpp"
 #include "game/pointers/Pointers.hpp"
 
 
-namespace NewBase
+namespace Elysium
 {
 	DWORD Main(void*)
 	{
@@ -20,9 +18,6 @@ namespace NewBase
 			goto unload;
 		if (!Pointers.Init())
 			goto unload;
-		if (!Renderer::Init())
-			goto unload;
-		GUI::Init();
 		Hooking::Init();
 
 		while (g_Running)
@@ -32,7 +27,6 @@ namespace NewBase
 
 	unload:
 		Hooking::Destroy();
-		Renderer::Destroy();
 		LogHelper::Destroy();
 
 		CloseHandle(g_MainThread);
@@ -44,7 +38,7 @@ namespace NewBase
 
 BOOL WINAPI DllMain(HINSTANCE dllInstance, DWORD reason, void*)
 {
-	using namespace NewBase;
+	using namespace Elysium;
 
 	DisableThreadLibraryCalls(dllInstance);
 
