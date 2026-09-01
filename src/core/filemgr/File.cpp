@@ -1,7 +1,7 @@
 #include "File.hpp"
 #include "FileMgr.hpp"
 
-namespace NewBase
+namespace Elysium
 {
     File::File(const std::filesystem::path& path) :
         BaseObj(path)
