@@ -2,7 +2,7 @@
 
 #include "util/Joaat.hpp"
 
-namespace NewBase
+namespace Elysium
 {
 	Module* ModuleMgr::Get(const std::string_view name)
 	{
