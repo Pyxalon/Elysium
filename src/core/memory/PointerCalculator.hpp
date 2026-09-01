@@ -2,7 +2,7 @@
 #include <cstdint>
 #include <type_traits>
 
-namespace NewBase
+namespace Elysium
 {
 	class PointerCalculator final
 	{
