@@ -3,7 +3,7 @@
 #include <span>
 #include <vector>
 
-namespace NewBase
+namespace Elysium
 {
     template<typename T>
     concept SpanCompatibleType = requires(T a)
