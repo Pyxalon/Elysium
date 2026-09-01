@@ -1,7 +1,7 @@
 #pragma once
 #include <filesystem>
 
-namespace NewBase
+namespace Elysium
 {
     class BaseObj
     {
