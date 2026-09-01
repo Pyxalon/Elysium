@@ -1,6 +1,6 @@
 #pragma once
 
-namespace NewBase
+namespace Elysium
 {
 	enum class LogColor
 	{
