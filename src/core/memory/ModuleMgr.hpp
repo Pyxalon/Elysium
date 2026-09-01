@@ -2,7 +2,7 @@
 #include "Module.hpp"
 #include "common.hpp"
 
-namespace NewBase
+namespace Elysium
 {
 	using joaat_t = std::uint32_t;
 
