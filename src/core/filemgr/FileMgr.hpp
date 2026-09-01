@@ -3,7 +3,7 @@
 #include "File.hpp"
 #include "Folder.hpp"
 
-namespace NewBase
+namespace Elysium
 {
     class FileMgr final
     {
