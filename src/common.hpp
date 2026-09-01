@@ -24,7 +24,7 @@
 using namespace al;
 #include "core/logger/LogHelper.hpp"
 
-namespace NewBase
+namespace Elysium
 {
 	using namespace std::chrono_literals;
 
