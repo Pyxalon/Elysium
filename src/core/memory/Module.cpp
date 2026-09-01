@@ -1,6 +1,6 @@
 #include "Module.hpp"
 
-namespace NewBase
+namespace Elysium
 {
 	Module::Module(LDR_DATA_TABLE_ENTRY* dllEntry) :
 	    m_Path(dllEntry->FullDllName.Buffer),
