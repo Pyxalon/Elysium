@@ -31,5 +31,5 @@ namespace Elysium
 		std::unordered_map<std::uint32_t, std::unique_ptr<Module>> m_CachedModules;
 	};
 
-	inline NewBase::ModuleMgr ModuleMgr;
+	inline Elysium::ModuleMgr ModuleMgr;
 }
